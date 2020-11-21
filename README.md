@@ -1,0 +1,2 @@
+# Stock-Price-Forecasting-Using-Optimized-Technical-Indicators-With-Three-Stage-Feature-Selection
+This project has focused on predicting the closing prices of stock. A model has been made to predict stock price movement by calculating and selecting effective technical indicators.Four machine learning models i.e. random forest, artificial neural network, gradient boosting, linear regressor applied on optimized technical indicator for forecasting the closing price.
