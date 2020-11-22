@@ -24,7 +24,7 @@ value of N for different technical indicators like RSI, SMA, WMA , STCK, EMA, WM
   - Gradient Boosting.
 - The evaluation measures are Mean Absolute Percentage Error (MAPE), Mean Square Error (MSE), Mean absolutem error(MAE) are used to evaluate the performance of models which are used for forecasting.
 
-## Installation
+## Data and code flow
 - Maruti_raw.xlsx and TCS_raw.xlsx are the base 12 years of dataset.Dataset has been created using formulas of technical indicator i.e. Maruti.xlsx and TCS.xlsx. 
 - Before sending data to stage 1. Data has been created for technical indicators for which N can vary. In this there are 7 techincal indicators (ema,tma,rsi,stochastic K%, stochastic d%,sma,wma) like that. ema,tma has been calculated in Excel only and for rest rsi.py,sma.py,stckstc.py,wma.py for creating rest data for passing input to stage1. 7 Dataset has been created and one by one passed to stage 1.
 - fcbc.py for appling FAST correlation feature selection algorithm (stage1). for each dataset in data folder this .py file will give an efficient N value.
